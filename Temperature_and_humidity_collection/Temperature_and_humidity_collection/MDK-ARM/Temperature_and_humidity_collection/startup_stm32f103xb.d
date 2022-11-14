@@ -1,0 +1,1 @@
+temperature_and_humidity_collection\startup_stm32f103xb.o: startup_stm32f103xb.s
