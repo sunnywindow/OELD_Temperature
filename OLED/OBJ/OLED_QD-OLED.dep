@@ -1,6 +1,6 @@
 Dependencies for Project 'OLED', Target 'QD-OLED': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (..\USER\main.c)(0x6371C07E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI -I "..\HARDWARE\AHT20-21 DEMO V1_3"-I.\RTE\_QD-OLED-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (..\USER\main.c)(0x6374842A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI -I "..\HARDWARE\AHT20-21 DEMO V1_3"-I.\RTE\_QD-OLED-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\SYSTEM\delay\delay.h)(0x5D57C325)
 I (..\SYSTEM\sys\sys.h)(0x5B8505C6)
 I (..\USER\stm32f10x.h)(0x4D783CB4)

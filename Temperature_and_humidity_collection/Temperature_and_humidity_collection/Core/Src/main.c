@@ -114,8 +114,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-		AHT20_Read_CTdata(CT_data);       //不经过CRC校验，直接读取AHT20的温度和湿度数据    推荐每隔大于1S读一次
-		//AHT20_Read_CTdata_crc(CT_data);  //crc校验后，读取AHT20的温度和湿度数据 
+		//AHT20_Read_CTdata(CT_data);       //不经过CRC校验，直接读取AHT20的温度和湿度数据    推荐每隔大于1S读一次
+		AHT20_Read_CTdata_crc(CT_data);  //crc校验后，读取AHT20的温度和湿度数据 
 	
 
 		c1 = CT_data[0]*1000/1024/1024;  //计算得到湿度值c1（放大了10倍）
